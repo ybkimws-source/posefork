@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.so
+logs/
+runs/
+outputs/
+*.pt
+*.pth
+*.onnx
+.env
+
+# AI tool artifacts
+.agents/
+.codex/
+.claude/
+.tmp_notes/

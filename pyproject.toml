@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "posefork"
+version = "0.1.0"
+description = "Multi-mode posture diversity for Unitree G1 arm reaching"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["posefork*"]
