@@ -18,7 +18,8 @@ downstream imitation learning.
 > single human demo?
 
 ---
-
+> ⚠️ **Work in progress.** This is active research, not a finished method — expect rough edges, half-built pieces, and things that will change. But the core thing works: **the postures actually fork.** A single policy holds multiple distinct arm-angle modes without collapsing into one. That part is real. Everything around it is still being built.
+> 
 ## The distinction this whole thing rests on
 
 Parallel RL hands you two very different things, and conflating them is the trap:
