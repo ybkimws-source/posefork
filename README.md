@@ -94,7 +94,7 @@ two changes:
   flattened by the dominant modes. A floor (`ADV_STD_FLOOR = 0.02`) guards the
   division. (Caveat, learned the hard way: this floor is a one-sided guard — it
   stops the std collapsing to 0, but doesn't cap the other direction, so in a
-  very weak-signal regime it can over-amplify. See `.tmp_notes/`.)
+  very weak-signal regime it can over-amplify)
 - **Worst-mode aggregation.** The surrogate loss is a blend of the mean over
   modes and the worst mode: `(1 - α)·mean + α·worst`, with
   `WORST_MODE_ALPHA = 0.3`. This keeps the hardest mode from being abandoned.
@@ -132,7 +132,6 @@ Active research repo. Straight talk, no hedging:
   modes. Making the *path* diverse (e.g. a phase-dependent arm-angle target) is
   the next step — and notably it does **not** need a heavy trajectory model.
 
-Full decision log lives in `.tmp_notes/`.
 
 | Mode 0 | Mode 1 |
 |:---:|:---:|
