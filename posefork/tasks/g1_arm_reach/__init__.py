@@ -19,6 +19,7 @@ gym.register(
     disable_env_checker=True,
     kwargs={
         "env_cfg_entry_point": env_cfg.G1ArmReachEnvCfg_PLAY,
+        "play_env_cfg_entry_point": env_cfg.G1ArmReachEnvCfg_PLAY,
         "rsl_rl_cfg_entry_point": f"{ppo_cfg.__name__}:G1ArmReachPPORunnerCfg",
     },
 )
